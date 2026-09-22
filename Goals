@@ -1,0 +1,16 @@
+----------Stream-based serialization-------------
+----------Handle invalid domain names------------
+Zone-file parsing
+----------Handle failing NameServerTest----------
+----------Handle CMAKE---------------------------
+----------Improved patterns for the RDATAs-------
+Support the 8 most popular types (https://bluecatnetworks.com/blog/know-the-eight-most-common-dns-records/):
+    A
+    AAAA
+    CNAME
+    PTR
+    NS
+    MX
+    SOA
+    TXT
+Execute some benchmarks/optimizations/malicious activity tests.
