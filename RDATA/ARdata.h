@@ -11,9 +11,9 @@
 
 namespace BartelDNS::Rdata {
     class ARdata : public Rdata {
-        uint32_t addr = 0;
+        uint32_t address = 0;
     public:
-        explicit ARdata(const uint32_t value) : addr(value) {};
+        explicit ARdata(const uint32_t value) : address(value) {};
         ARdata() = default;
         ~ARdata() override = default;
         [[nodiscard]] bool validate() const override;

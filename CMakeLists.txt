@@ -25,6 +25,8 @@ add_library(BartelDNS SHARED
         RDATA/NSRdata.h
         Nameserver.cpp
         Nameserver.h
+        RDATA/AAAARdata.cpp
+        RDATA/AAAARdata.h
 )
 target_link_libraries(BartelDNS PRIVATE ws2_32)
 target_include_directories(BartelDNS PUBLIC
